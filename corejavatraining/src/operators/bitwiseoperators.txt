@@ -1,0 +1,158 @@
+Bitwise operators:
+Used to perform operations directly on individual bits
+Bit is nothing but binary integer, it can either be 0 or 1. 
+
+These are rarely used, but they are used in low-level programming
+
+Different bitwise operators are: 
+Bitwise AND
+Bitwise OR
+Bitwise XOR
+Bitwise NOT
+Bitwise left shift
+Bitwise right shift operators.
+
+
+
+1. Bitwise AND:
+----------------
+
+- represented by & symbol
+
+A	B	A & B
+0	0	0
+0	1	0
+1	0	0
+1	1	1
+
+2. Bitwise OR
+Bitwise OR is represented by | (Pipe) symbol
+
+A	B	A | B
+0	0	0
+0	1	1
+1	0	1
+1	1	1
+
+int a=5;
+int b=3;
+
+1. convert 5 and 3 to binary numbers
+   when 5 is converted to binary it gives 0101
+   when 3 is converted to binary it gives 0011
+2. calculate the Bitwise OR between these binary numbers
+
+      0101
+      0011
+      -----
+       0111
+      -----
+3. Convert the binary result into decimal number
+   convert 0111 to binary number as follows: 
+   0 × 2³ + 1 × 2² + 1 × 2¹ + 1 × 2⁰ = 4 + 2 + 1 = 7
+
+
+
+Bitwise XOR: 
+-----------
+Bitwise Exclsuive OR 
+Represented by symbol: ^ (Carot symbol)  
+
+Tryth table for Bitwise XOR
+
+A	B	A ^ B
+0	0	0
+0	1	1
+1	0	1
+1	1	0
+
+int a =5, b=3;
+System.out.println(a^b);
+
+0101   (5)
+0011   (3)
+
+0110   XOR Result
+
+0 × 2³ + 1 × 2² + 1 × 2¹ + 0 × 2⁰ 
+6  - After binary conversion to decimal
+
+4. Bitwise NOT operator
+  - This a unary operator
+  - It operates on a single operand. 
+  - It is represented by ~  symbol
+  
+  The unary operator  reverses every bit 
+  0 becomes 1 and 1 becomes 0
+  
+  Formula to calculate the Bitwise NOT:
+  ~n = -(n+1)
+  
+  Example: 
+  ~5 = -(5+1)
+  ~5 = -6
+  
+  eg: System.out.println(~5);  // -6
+  
+  
+  Shift operators: 
+  Bitwise left shift:
+  Represented by <<
+  Left shift operator moves bits to the left by spsecified number of 
+  positions. 
+  
+  eg: 5 << 1
+  
+  Formula: 
+  
+  a << n = a × 2ⁿ   
+  
+  5 x 2 e1  = 10
+  
+  
+  Bitwise Right shift: 
+  -------------------
+  Bitiwise right shift operator moves bits to the right
+  Formula to calculate bitwise right shift for a nu,ber
+   a >> n = a/2en
+  
+ eg: 
+ 20>>1  = 20/2e1  = 10
+ 5>>1  = 5/2e1 = 2.5  = 2  
+  
+  
+  
+ 
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

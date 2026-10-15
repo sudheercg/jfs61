@@ -1,0 +1,121 @@
+Control flow: 
+
+
+Control flos statements are statements in java which 
+control the order in which the instsructions are 
+executed in a program based on conditions.
+
+
+By default, statements are executed top to bottom.
+
+Control flow allows us to change this normal  
+execution order. 
+
+Control flow statements can be categorized into: 
+
+1. Selection(Decision-making) statements:
+    if
+    if-else
+    else-if
+    switch..case
+    
+ 2. Iteration(Looping) statements:
+     for
+     while
+     do-while
+     enhanced - for
+     
+ 3. Jump(Branching) statements:
+     continue
+     break
+     return
+     
+     
+ if:
+ ===
+ syntax:
+ if(condition){
+    //statements
+ }
+ 
+ 
+ int marks= 45;
+ if(marks>40){
+   System.out.println("Passed");
+ }
+ 
+ 
+ Take the int input using scanner
+ 
+ read the input
+ 
+ examine the input
+ 
+ check whether the given number is even or odd
+ 
+ Logic:
+ (number%2)==0
+ if remainder is zero Print Even
+ If remainder is not zwero print odd.
+ 
+ 
+Grade checker:
+=============
+Logic:
+Marks	Grade
+90–100	A
+75–89	B
+60–74	C
+40–59	D
+Below 40	Fail
+
+
+if(marks<0 || marks>100){
+  System.out.println("Invalid marks");
+}
+ 
+ if-else-if ladder:
+ ==================
+ if- else -if ladder is a control flow statement
+ used to check multiple conditions sequentially
+ and executes the block with the first condition
+ which is evaluated as true;
+ 
+ if(condition1){
+    //executes if condition is true
+ }
+ else if(condition2){
+   //executes if condition2 is true
+ }
+ else if(condition3){
+    //executes if  condition3 is true
+  }
+  else{
+  // Executes if all conditions above are false
+  // executes if none of the above conditions are true
+  }
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+
+
+

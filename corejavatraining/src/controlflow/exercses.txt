@@ -1,0 +1,71 @@
+Section A: Simple if Statement
+Exercise 1: Positive Number
+Write a Java program to accept an integer and check whether it is positive.
+- Input: 25
+- Expected Output: Positive Number
+- Logic: number > 0
+
+Exercise 2: Divisibility by 5
+Write a Java program to accept an integer and check whether it is divisible by 5.
+- Input: 35
+- Expected Output: Divisible by 5
+- Logic: number % 5 == 0
+
+Exercise 3: Voting Eligibility
+Write a Java program to accept a person's age and check whether the person is eligible to vote.
+- Input: 21
+- Expected Output: Eligible to Vote
+- Logic: age >= 18
+
+Section B: if-else Statement
+Exercise 4: Largest of Two Numbers
+Accept two integers and determine which number is greater. If both numbers are equal, display an appropriate message.
+- Input: 30, 50
+- Expected Output: 50 is greater
+
+Exercise 5: Even or Odd Number
+Accept an integer and determine whether the number is even or odd.
+- Input: 17
+- Expected Output: Odd Number
+
+
+Exercise 6: Divisible by Both 3 and 5
+Accept an integer and check whether it is divisible by both 3 and 5.
+- Input: 30
+- Expected Output: Divisible by both 3 and 5
+- Hint: Use the logical AND (&&) operator.
+
+
+Exercise 7: Leap Year
+Accept a year and determine whether it is a leap year.
+- Input: 2024
+- Expected Output: Leap Year
+- Hint: A year is a leap year if it is divisible by 400, or divisible by 4 but not by 100.
+Section C: if-else-if Ladder
+Exercise 8: Largest of Three Numbers
+Accept three integers and determine the largest number.
+- Input: 45, 80, 60
+- Expected Output: 80 is the largest number
+Exercise 9: Electricity Bill Calculator
+Accept the number of electricity units consumed and calculate the bill using the following rates.
+Units consumed	Rate
+0–100	₹2 per unit
+101–200	₹3 per unit
+Above 200	₹5 per unit
+Use a single rate for all units based on the applicable range. Reject negative units.
+- Input: 150
+- Expected Output: Electricity Bill: Rs. 450
+Exercise 10: Number Classification
+Accept an integer and determine whether it is positive, negative or zero.
+- Input: -15
+- Expected Output: Negative Number
+Exercise 11: Triangle Validity
+Accept three angles of a triangle and check whether they form a valid triangle.
+- Input: 60, 70, 50
+- Expected Output: Valid Triangle
+- Hint: The sum of the three angles must be 180°, and every angle must be greater than zero.
+Exercise 12: Simple Calculator
+Accept two integers and an arithmetic operator (+, -, *, /, %) and perform the selected operation using an if-else-if ladder.
+- Input: 20, 5, /
+- Expected Output: Result: 4
+- Handle division by zero.

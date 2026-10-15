@@ -1,0 +1,187 @@
+Type casting: 
+============
+
+
+Type casting is the process of converting a value from
+one datatype to another data type. 
+
+
+Casting can be done for: 
+
+1. Primitive types
+2. Object types
+
+Primitive type casting: 
+eg: int can be converted to a long
+    long can be converted to int
+    
+    There are 2 ways to cast a primitive type: 
+    
+    1. Widening casting also known as implicit casting
+      it is called implicit because Java compiler automatically converts
+      a smaller data type into a larger data type. 
+    
+    
+    
+ Implicit casting vs Explicit casting :
+ -------------------------------------
+ Implicit casting is automatically done.
+ Explicity casting is manually done. 
+ 
+ Implicit casting is known as widening coversion
+ Explicit casting is known as narrowing conversing
+ 
+ Implicit casting does not require a casting operator .
+ Explicit casting requires casting operator.
+ 
+ Implicit casting is safe
+ Explicit casting is not always safe, you may lose the data or precision. 
+ 
+ Important features of  type casting: 
+ -----------------------------------------
+ 1. boolean cannot be converted into numeric primitive type. 
+ 2. byte , short and char are automatically promoted to int when performing
+     arithmetic operations like addition, subtraction or multiplication
+ 3. overflow and underflow
+ 
+ 
+Write a Java program to store a double value and convert it into an int. Display both values.
+Write a Java program to store an int value and assign it to a double variable. Display both values.
+Write a Java program to convert a float value into a long. Display both values.
+Write a Java program to convert a long value into a short. Display both values.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+byte b =127;
+
+b++;// b=b+1
+
+s.o.p(b);    
+
+
+byte range: -128 to 127
+
+
+Overflow: 
+
+Overflow occurs when the result of an arithmetic
+operation exceeds the maximum value of a
+data type. 
+
+
+For eg: 
+
+byte range is 
+-128 to 127
+
+eg: 
+byte b =127;
+b++;
+
+Normally when we add 1 to 127, 128 is expected.
+But the byte data type cannot store 128 because
+its maximum value is 127.
+
+There Java wraps the number to 
+begining of the range.
+
+So the number becomes -128.
+
+127+1 becomes -128
+-128+1 becomes -127
+-127+1  becomes -126
+
+.....
+
+
+Under flow: 
+Underflow occurs when the result of arithmetic
+operation falls below the minimum value
+supported by data type. 
+
+eg:
+-128,-127,-126......
+
+If we subtract 1 from -128, we expect -129
+But the byte data type do not support -129
+because its minimum value is -128.
+
+Therefore, Java wraps the number to the other
+end of the range , which is 127.
+
+eg:
+-128 -1 = 127
+127 -1 = 126
+
+and so on. 
+
+
+Ternary operator: 
+
+(condition)?exp1 : exp2
+
+Conditional statements: 
+
+if(condition){
+   exp1;
+   }
+   else{ 
+   exp2;
+   }
+   
+   
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

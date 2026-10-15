@@ -1,0 +1,78 @@
+Syntax to create an object:
+
+Classname objectReference = new ClassName();
+
+Problem with nextInt() and nextLine() in Scanner class:
+=========================================================
+
+When we use nextInt() followed by nextLine()
+the nextLine() method may skip taking the input
+from the user.
+
+This is because nextInt() reads only integer value and 
+leaves the newline character (\n) which is generated
+by pressing Enter button. 
+
+
+the nextLine() method reads this leftover newline
+instead of waiting for new text input. 
+
+eg:
+
+        System.out.println("Please enter age: ");
+		int age = s.nextInt(); // reads the
+
+		System.out.println("Please enter your place: ");
+		String place = s.nextLine();
+		
+Therefore, In the above 'place' is stored as an empty String.
+
+The simple solution for the above issue is to add 
+ a nextLine() method immediately after nextInt().
+ 
+
+We can use two methods to read text data:
+next():   next() method is used to read a single word
+nextLine(): nextLine() is used to read a line of text
+
+Wehn next() is used instead of nextLine() method, it will read the next 
+word without any new line issue. 
+
+TasK:
+=====
+Write a program k to accept student registration details from the user
+using the scanner class.
+Display the entered information: 
+
+Output: 
+Enter Student ID: 11   - int
+Enter Student Name: Ravi Kumar    - String (may contain spaces)
+Enter Age: 21  - int
+Enter course name: Java full stack - String (may contain spaces)
+Enter course Fee: 45000.45 -   double
+City: Hyderabad     - String.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Scenario2:
+
+Soon after nextInt
+
+
+
+
+
+
+
+
