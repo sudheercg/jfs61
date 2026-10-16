@@ -96,6 +96,66 @@ if(marks<0 || marks>100){
   }
   
  
+ Write a Java program that accepts a number from 1 to 7 and displays the corresponding day of the week.
+For example:
+- 1 → Monday
+- 2 → Tuesday
+- 3 → Wednesday
+- 7 → Sunday
+- Any other number → Invalid day
+
+
+
+ switch case:
+ ------------
+ 
+ switch statement is a decision making control flow statement which allows us to 
+ execute one block of code from multiple alternatives based on the 
+ value of an expression. 
+ 
+ We can write code in simple way using switch case. 
+ 
+ It is mainly used to compare a single expression with 
+ multiple fixed values, instead of using multiple if-else-if ladder. 
+ 
+ Syntax:
+ 
+ switch(expression){
+ 
+   case value1:
+     //statements to execute
+     break;
+  
+  case value2:
+    //statemens to execute
+    break;
+  
+  case value3:
+    //statement to execute
+    break;
+    
+  default: 
+   //statements if none of the above case matches
+   }
+ 
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
